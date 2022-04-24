@@ -10,8 +10,15 @@ class Header extends React.Component {
             alt="logo"
             className="logo"
           />
+             
+
         </div>
+        
+
+        
+
       );
+  
     }
   }
   

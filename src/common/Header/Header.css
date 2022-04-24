@@ -21,3 +21,10 @@ animation-name: example;
     transform: rotate(359deg);
   }
 }
+.LowerHeader{
+  background-color: #ff9999;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0px;
+}
