@@ -1,5 +1,6 @@
 import  "./Header.css";
 import React from "react";
+import Button from '@material-ui/core/Button';
 
 class Header extends React.Component {
     render() {
@@ -11,9 +12,15 @@ class Header extends React.Component {
             className="logo"
           />
              
-
+             {this.props.showBookShowButton === "true" ?
+          <div className="bookshow-button">
+              <Button variant="contained" color="primary" >
+                  Book Show
+              </Button>
+          </div>
+          : ""}
         </div>
-        
+      
 
         
 
